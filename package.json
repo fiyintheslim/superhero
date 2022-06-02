@@ -1,0 +1,23 @@
+{
+  "name": "super",
+  "version": "1.0.0",
+  "description": "An app for fictionsl super hero characters ",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiyintheslim/superhero.git"
+  },
+  "author": "Fiyin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiyintheslim/superhero/issues"
+  },
+  "homepage": "https://github.com/fiyintheslim/superhero#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
