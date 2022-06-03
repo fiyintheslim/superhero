@@ -64,13 +64,16 @@ height: 100%;
 export const SearchInput = styled.div`
     position: absolute;
     height: 2.5rem;
-    width: 20rem;
+    width: 15rem;
+    margin-right: 0.3rem;
     right: 0;
-    transform: translateX(-100vh) translateY(2rem);
+    transform: translateX(100vh) translateY(3rem);
 
     @media only screen and (min-width: 768px){
         position: relative;
         right:0;
+        width: 20rem;
+        margin:0;
         transform: translateX(0vh) translate(0rem);
     }
     
