@@ -30,7 +30,7 @@ const Container = `
     }
 `
 export const Header = styled.header`
-    height: 7rem;
+    height: 6rem;
     width: 100vw;
     padding: 0 1rem;
     position:sticky;
@@ -38,6 +38,9 @@ export const Header = styled.header`
     right:0;
     box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.3);
     margin-bottom: 2rem;
+    @medis only screen and (min-width: 768px){
+        height: 7rem;
+    }
     .container{
         display: flex;
         justify-content: space-between;
