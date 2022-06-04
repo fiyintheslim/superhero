@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
     margin: 0;
     font-family: 'Bangers', 'Roboto', cursive, sans-serif;
-    transition: 0.3s ease;
+    transition: background 0.3s ease;
 }
 body{
     /* background: linear-gradient(${color_1}, ${color_2}, ${color_3}, ${color_4}) */
@@ -68,16 +68,16 @@ export const SearchInput = styled.div`
     position: absolute;
     height: 2.5rem;
     width: 15rem;
-    margin-right: 0.3rem;
+    margin-right: 4rem;
     right: 0;
-    transform: translateX(100vh) translateY(3rem);
+    transform: translateX(100vh);
 
     @media only screen and (min-width: 768px){
         position: relative;
         right:0;
         width: 20rem;
         margin:0;
-        transform: translateX(0vh) translate(0rem);
+        transform: translateX(0vh);
     }
     
     input{
@@ -100,6 +100,7 @@ export const SearchInput = styled.div`
         background: ${color_3};
         color: white;
         cursor: pointer;
+        border: 1px solid black;
         @media screen only and (min-width:768px){
             width: 5rem;
         }

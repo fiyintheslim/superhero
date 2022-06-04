@@ -12,7 +12,7 @@ const App = () => {
   const {count} = useSelector((state:Store)=>state.counter)
 
   useEffect(()=>{
-    console.log("count please", count)
+    console.log("count please", count, process.env.URI)
   }, [])
   return (
     <>
